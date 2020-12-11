@@ -1,0 +1,241 @@
+ * {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+html {
+    font-size:10px;
+}
+
+body {
+    font-size:1.6rem;
+    max-width: 100vw;
+}
+
+
+.layout1,
+.layout2 
+{
+    font-size:40px;
+    width:100vw;
+    height:100vh;   
+    display:grid;
+    grid-template-columns: 1fr 1.5fr 1.25fr 1fr 1fr 1fr;
+    position:absolute;
+    top:0; left:0;
+
+
+}
+
+.layout2 {
+    background:black;
+
+}
+
+  #layout2__ {
+
+  }
+
+
+
+    .layout1__s {
+        border-right:1px solid #000;
+        padding:0.5em;
+        background:#f7f7f7;
+          writing-mode: vertical-lr;
+    text-orientation: upright;
+    width: 15vw;
+
+      
+    }
+
+    .layout1__s:hover {
+        background:#e7e7e7;
+
+    }
+
+  
+/*Low Resolutions*/
+    #layout1__s1 {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+      text-transform: uppercase;
+      width: 15vw;
+      height: 100vh;
+
+
+
+    }
+
+      .Low {
+        transform: scale(1,3);
+    
+        font-family: times;
+        font-size: 10rem;
+          writing-mode: vertical-lr;
+    text-orientation: mixed;
+
+
+    }
+
+
+
+/*Resurrection as Poor Images*/
+
+    #layout1__s2 {
+         writing-mode: horizontal-tb;
+         font-family: times;
+         letter-spacing: 4px;
+    
+          text-transform: uppercase;
+          font-size: 2rem;
+          width: 30vw;
+       
+
+    }
+
+    .Resurrection {
+        top:20vh;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 5rem;
+          font-family: times bold;
+         
+    }
+
+    .asPoor {
+        font-size: 3rem;
+        font-weight: lighter;
+
+    }
+/*Privatiation and Piracy*/
+    #layout1__s3 {
+        font-family:"arial black";
+        writing-mode: horizontal-tb;
+
+    }
+/*Imperfect Cinema*/
+
+    #layout1__s4 {
+             writing-mode: vertical-lr;
+    text-orientation: mixed;
+    width: 10vw;
+    }
+
+    .Imperfect {
+            transform: scale(1,3);
+    }
+
+    .textbox1 {
+    color: white;
+    font-size:20px;
+
+
+    }
+
+    .box1 {
+    width:45vw;
+    height:90vh;  
+    background: rgba(23,23,23,1);
+    position: absolute;
+box-sizing:border-box;
+    padding:2em;
+    font-size: 15px;
+
+
+
+    top:3vh; left:15vw;
+
+    }
+
+    .box2 {
+       width:30vw;
+    height:30vh;  
+    background: rgba(171, 140, 135, 1);
+    position: absolute;
+    font-size: 1.25rem;
+
+box-sizing:border-box;
+    padding:1em;
+    top:50vh; left:22.5vw;
+    }
+    
+    .layout3 {
+
+    width:20vw;
+    height: auto;
+    position: absolute;
+     /*top:0vh; */left:10vw;
+     transform: scale(0.5,0.5);
+     
+
+}
+    .textbox2 {
+     color: white;
+    font-size:20px;
+}
+    .twobox1 {
+     width:30vw;
+    height:50vh;  
+    background: rgba(23,23,23,1);
+    position: absolute;
+
+
+
+    top:3vh; left:45vw;
+} 
+     .twobox2 {
+     width:15vw;
+    height:50vh;  
+    background: rgba(23,23,23,1);
+    position: absolute;
+    font-size: 1.5rem;
+
+
+
+    top:3vh; left:0vw;
+    overflow: auto;
+} 
+
+    .image2{
+  transform: scale(0.25,0.25);
+
+    top:3vh; left:0vw;
+
+    }
+    .fi {
+        position:absolute;
+        background: black;
+        opacity:0;
+        pointer-events:none;
+
+    }
+
+    .fi:hover {
+        opacity:1;
+    }
+
+    #fi-01 {
+        width:28.57vw;
+        left:42.857vw;
+        top:20vh;
+    }
+
+
+    #fi-02 {
+        width:40vw;
+        left:120vw;
+        top:40vw;
+    }
+
+    .vf {
+        
+
+    }
+
+
+    .activated {
+        font-family:arial;
+    }
